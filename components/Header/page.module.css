@@ -1,0 +1,30 @@
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.container{
+    background: url(/background.jpg);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+.bgImg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.productName{
+    font-family: monospace;
+    font-size: 40px;
+    padding-left: 10px;
+}
